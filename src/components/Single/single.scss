@@ -1,0 +1,22 @@
+.card {
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+
+    .card__sub {
+        position: relative;
+        width: 90%;
+        padding: 20px;
+        letter-spacing: 1px;
+    }
+
+    .card__btn {
+        padding: 5px 20px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}

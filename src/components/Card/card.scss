@@ -1,0 +1,30 @@
+.card {
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+
+    .card__subtitle {
+        position: relative;
+        width: 90%;
+        height: 40px;
+        overflow: hidden;
+
+        &::after {
+            content: "...";
+            position: absolute;
+            color: rgb(0, 0, 0);
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    .card__btn {
+        padding: 5px 20px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}
